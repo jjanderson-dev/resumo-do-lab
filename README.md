@@ -98,3 +98,59 @@ Disponibilizamos alguns links para que você possa se aprofundar nas tecnologias
 - Detalhou-se a importância de explorar as opções e entender melhor cada uma delas.
 - Além disso, foi explicado como a replicação de VMs afeta o SLA, a disponibilidade e outros fatores importantes.
 
+  ------------------------------------------------------------------------------
+
+  # Tipos de Serviço de Nuvem na Azure
+
+## IaaS, PaaS e SaaS na Azure
+
+### IaaS - Infraestrutura como Serviço:
+- Administradores têm acesso amplo e executam uma variedade de serviços.
+- Responsáveis por configurar e manter toda a infraestrutura.
+
+### PaaS - Plataforma como Serviço:
+- Os administradores focam apenas no software; a Microsoft cuida do hardware.
+- Ambiente otimizado para desenvolvimento, teste e implantação de aplicações, sem a necessidade de gerenciar a infraestrutura subjacente.
+
+### SaaS - Software como Serviço:
+- Exemplo: Microsoft Teams e Office 365.
+- Usuários acessam aplicativos via subscrição, com o provedor de serviços gerenciando toda a infraestrutura e plataforma.
+
+## Modelo de Responsabilidade Compartilhada
+
+- **On-premise:** O cliente é responsável por tudo.
+- **SaaS:** O oposto de IaaS, com mínima responsabilidade do cliente sobre a infraestrutura.
+
+### IaaS:
+- Mais flexível entre os serviços de nuvem.
+- Permite aos usuários configurar e gerenciar o hardware necessário para suas aplicações.
+
+### PaaS:
+- Concentra-se no desenvolvimento de aplicativos.
+- Gerenciamento da plataforma realizado pelo provedor de nuvem.
+
+### SaaS:
+- Modelo de pagamento baseado no uso.
+- Os usuários pagam pelo software que utilizam, geralmente através de uma assinatura.
+
+## Revisão dos Tipos de Serviço de Nuvem
+Recapitulação do que foi ensinado nos módulos anteriores, consolidando o entendimento sobre a infraestrutura, plataforma e software como serviços na nuvem.
+
+# Materiais Complementares
+
+Nossos materiais complementares e de apoio têm como objetivo apresentar informações para facilitar e enriquecer a sua jornada de aprendizado. Para isso, links úteis (como slides, repositórios e páginas oficiais) serão disponibilizados, além de dicas sobre como se destacar na DIO e no mercado de trabalho 😉.
+
+## Slides
+
+- Tipos de serviço de nuvem
+- Tipos de serviço de nuvem - Revisão
+
+## Dicas/Links Úteis
+
+Por fim, disponibilizamos alguns links úteis para que você possa se desenvolver ainda mais através de referências oficiais das tecnologias, páginas de documentação e/ou fóruns de discussão relevantes. Nesse contexto, seguem algumas sugestões:
+
+- **Artigos/Fórum:** você pode compartilhar conteúdos técnicos através de Artigos (visíveis globalmente na plataforma da DIO). Por outro lado, você também pode compartilhar suas conquistas e dúvidas usando os Fóruns (que são específicos para cada experiência educacional na DIO, como um Bootcamp por exemplo).
+- **Rooms:** caso você esteja inscrito(a) em uma experiência educacional na DIO (como um Bootcamp, por exemplo), você terá acesso ao Rooms. O Rooms é uma ferramenta de bate-papo em tempo real onde todos os inscritos podem interagir, compartilhando dúvidas e dicas (que podem conter imagens e snippets de código-fonte).
+- **Pesquise na Web:** pode parecer óbvio, mas é importante frisar a importância das engines de busca no dia-a-dia de um profissional de TI. Caso não encontre o que procura dentro da DIO, pesquise sobre o assunto (conceito, dúvida, erro etc) na Internet (dê um Google), pois na maioria das vezes você será levado a páginas incríveis como o StackOverflow que salvarão o seu dia 😎.
+
+
