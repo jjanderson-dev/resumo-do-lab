@@ -154,3 +154,54 @@ Por fim, disponibilizamos alguns links úteis para que você possa se desenvolve
 - **Pesquise na Web:** pode parecer óbvio, mas é importante frisar a importância das engines de busca no dia-a-dia de um profissional de TI. Caso não encontre o que procura dentro da DIO, pesquise sobre o assunto (conceito, dúvida, erro etc) na Internet (dê um Google), pois na maioria das vezes você será levado a páginas incríveis como o StackOverflow que salvarão o seu dia 😎.
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+### Módulo 2: Componentes de Arquitetura do Azure
+
+#### **Regiões:**
+- As regiões do Azure são locais estratégicos onde os recursos são alocados, garantindo melhor desempenho e custo otimizado ao estar próximo do usuário.
+- Cada região é composta por um ou mais datacenters interconectados, proporcionando escalabilidade e flexibilidade.
+- As regiões ajudam a reduzir a latência, melhorando a experiência do cliente.
+- As regiões também garantem a conformidade com normas, preservando a residência dos dados de acordo com regulamentações locais.
+- Não há um preço fixo para todos os recursos, e nem todos estão disponíveis em todas as regiões.
+- O Azure tem uma abrangência global, possibilitando alcance mundial.
+- É importante verificar a LGPD para garantir que os dados não sejam transferidos para fora do Brasil sem conformidade.
+
+#### **Zona de Disponibilidade:**
+- Ambientes com alta disponibilidade tendem a ser mais caros, mas oferecem maior resiliência.
+- Caso ocorra uma falha em uma única zona de disponibilidade, a rede pode ficar indisponível.
+- É possível implementar redundância por meio de datacenters ou outros métodos de segurança (como hacks).
+
+#### **Assinaturas:**
+- O Azure permite múltiplas assinaturas, divididas em categorias como desenvolvimento, teste e produção.
+- Uma única conta pode ter diversas assinaturas, mas cada assinatura está vinculada a uma única conta.
+- Uma estratégia recomendada é criar assinaturas separadas para cada projeto, facilitando o controle financeiro e o gerenciamento de recursos.
+- Todas as assinaturas de uma conta respondem a um único proprietário.
+
+#### **Grupos de Gerenciamento:**
+- Grupos de gerenciamento permitem a aplicação de regras e políticas uniformes para várias assinaturas ao mesmo tempo, facilitando a administração.
+
+#### **Recapitulando:**
+- As regiões e pares de regiões do Azure garantem disponibilidade global.
+- As zonas de disponibilidade e datacenters garantem resiliência.
+- Recursos e grupos de recursos organizam a infraestrutura.
+- Assinaturas e grupos de gerenciamento estruturam e facilitam a administração dos ambientes.
+
+---
+
+### Materiais Complementares:
+Nossos materiais de apoio visam complementar seu aprendizado, oferecendo recursos como slides, repositórios e links para páginas oficiais. Além disso, incluímos dicas sobre como se destacar na DIO e no mercado de TI. 😎
+
+**Slides:**
+- [Componentes de arquitetura do Azure](#)
+- [Componentes de arquitetura do Azure - Revisão](#)
+
+### Dicas/Links Úteis:
+- **Artigos/Fórum:** Compartilhe seus conhecimentos técnicos em artigos, visíveis globalmente na plataforma da DIO, ou use os fóruns para esclarecer dúvidas específicas de experiências como bootcamps.
+- **Rooms:** Se você está inscrito em uma experiência como bootcamp, pode participar dos Rooms, um espaço de bate-papo em tempo real onde os inscritos trocam informações, dicas e até mesmo código.
+- **Pesquisa na Web:** Utilizar motores de busca, como o Google, pode ser essencial para solucionar problemas e aprofundar conhecimentos. Plataformas como o StackOverflow são fontes valiosas para esclarecer dúvidas técnicas.
+
+-------------------------------------------------------------------------------------------------------------
+
+
+
