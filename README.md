@@ -203,5 +203,103 @@ Nossos materiais de apoio visam complementar seu aprendizado, oferecendo recurso
 
 -------------------------------------------------------------------------------------------------------------
 
+## Computação e Rede
+- Tipos de computação
+- Hospedagem de aplicativos
+- Redes Virtuais
+
+## Serviços de Computação
+- O Azure oferece serviços de computação sob demanda, fornecendo recursos como discos, processadores, memórias, armazenamento e sistemas operacionais.
+
+## Máquinas Virtuais no Azure
+- As VMs (Virtual Machines) são emulações de computadores físicos.
+- Incluem processador virtual, memória, armazenamento e rede.
+- Oferecem IaaS (Infraestrutura como Serviço) com personalização e controle total.
+
+## Conjuntos de Dimensionamento de VMs
+- Permitem o balanceamento de carga e o dimensionamento automático dos recursos.
+
+## Conjuntos de Disponibilidade de VMs
+- Dentro de um Data Center, há vários racks, e em cada rack, diversas VMs.
+
+## Área de Trabalho do Azure
+- A virtualização da área de trabalho e dos aplicativos é executada na nuvem.
+- Reduz os riscos de ambientes legados.
+- Cria um ambiente completo de virtualização da área de trabalho sem necessidade de servidores adicionais de gateway.
+- Suporta várias sessões reais simultaneamente.
+
+## Serviços de Contêineres do Azure
+- Os contêineres oferecem um ambiente leve e virtualizado que não requer gerenciamento do sistema operacional e se adapta a alterações sob demanda.
+- O Azure é compatível com Docker e fornece diversos serviços de contêineres.
+
+### Ofertas Relacionadas:
+- **Instâncias de Contêiner do Azure**: Um serviço de PaaS (Plataforma como Serviço) que executa contêineres ou PODs.
+- **Aplicativos de Contêiner do Azure**: Outro serviço PaaS que facilita o balanceamento de carga e escalabilidade.
+- **Serviço de Kubernetes do Azure**: Gerenciamento e orquestração de grandes volumes de contêineres em uma arquitetura distribuída.
+- **Azure Functions**: PaaS para operações de computação sem servidor, executando código sob demanda sem infraestrutura contínua.
+
+## Comparações de Computação no Azure
+- **Máquinas Virtuais (VMs)**
+  - Suportam ambientes Windows e Linux.
+  - Adequadas para migrações "lift-and-shift", levando sistemas off-line diretamente para a nuvem.
+  
+- **Área de Trabalho Virtual**
+  - Fornece uma experiência de desktop Windows na nuvem, com aplicativos acessíveis de navegadores modernos.
+  - Suporta logon de múltiplos usuários no mesmo sistema simultaneamente.
+
+- **Contêineres**
+  - Ambientes leves, ideais para execução de microserviços.
+  - Projetados para escalabilidade e resiliência por meio de orquestração.
+  - Vários contêineres podem ser executados em um único sistema operacional host.
+
+- **Serviços de Aplicativos do Azure**
+  - Plataforma gerenciada para criar, implantar e escalar aplicativos web e APIs.
+  - Suporta .NET, Node.js, Java, Python e PHP.
+  - Oferece desempenho, segurança e conformidade de nível corporativo.
+
+## Serviços de Rede do Azure
+- A rede virtual do Azure, chamada **VNet**, permite a comunicação entre recursos do Azure, internet e redes locais.
+- Possui pontos de extremidade públicos (acessíveis pela internet) e privados (acessíveis apenas internamente).
+- VNETs são isoladas por padrão, mas podem ser configuradas para comunicação entre si.
+- Sub-redes virtuais permitem segmentação da rede conforme necessário.
+- Emparelhamento de rede conecta redes privadas diretamente.
+
+### Gateway de VPN
+- Envia tráfego criptografado entre uma rede virtual do Azure e uma rede local pela internet pública.
+- **ExpressRoute**: Extensão de redes locais ao Azure por meio de uma conexão privada fornecida por um provedor de conectividade.
+
+### DNS do Azure
+- Aproveita uma rede global de servidores para fornecer serviços DNS confiáveis com suporte à rede **Anycast**.
+- A segurança do DNS é gerenciada por controle de acesso baseado em função, com monitoramento e registro.
+- O serviço DNS do Azure facilita o gerenciamento de recursos internos e externos.
+- Redes virtuais podem ter domínios privados e totalmente personalizáveis.
+- Suporta registros de alias para apontar diretamente para recursos no Azure.
+
+## Resumo do Módulo:
+- Tipos de computação, instâncias de contêiner, máquinas virtuais e funções.
+- Hospedagem de aplicativos, incluindo aplicativos web, contêineres e VMs no Azure.
+- Redes virtuais, sub-redes, emparelhamento de rede, DNS, Gateway de VPN e ExpressRoute.
+
+---
+
+## Materiais Complementares
+Nossos materiais complementares e de apoio têm como objetivo apresentar informações para facilitar e enriquecer a sua jornada de aprendizado. Para isso, links úteis (como slides, repositórios e páginas oficiais) serão disponibilizados, além de dicas sobre como se destacar na DIO e no mercado de trabalho 😉.
+
+### Slides
+- [Computação e rede](#)
+- [Computação e rede - Revisão.pptx](#)
+
+### Dicas/Links Úteis
+
+Por fim, disponibilizamos alguns links úteis para que você possa se desenvolver ainda mais através de referências oficiais das tecnologias, páginas de documentação e/ou fóruns de discussão relevantes. Nesse contexto, seguem algumas sugestões:
+
+- **Artigos/Fórum**: você pode compartilhar conteúdos técnicos através de Artigos (visíveis globalmente na plataforma da DIO). Por outro lado, você também pode compartilhar suas conquistas e dúvidas usando os Fóruns (que são específicos para cada experiência educacional na DIO, como um Bootcamp por exemplo).
+  
+- **Rooms**: caso você esteja inscrito(a) em uma experiência educacional na DIO (como um Bootcamp, por exemplo) você terá acesso ao Rooms. O Rooms é uma ferramenta de bate-papo em tempo real onde todos os inscritos podem interagir, compartilhando dúvidas e dicas (que podem conter imagens e snippets de código-fonte).
+
+- **Pesquise na Web**: pode parecer óbvio, mas é importante frisar a importância das engines de busca no dia-a-dia de um profissional de TI. Caso não encontre o que procura dentro da DIO, pesquise sobre o assunto (conceito, dúvida, erro etc) na Internet (dê um Google), pois na maioria das vezes você será levado à páginas incríveis como o StackOverflow que salvarão o seu dia 😎.
+
+-----------------------------------------------------------------------------------------------------
+
 
 
