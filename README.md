@@ -386,6 +386,25 @@ Embora os pontos de extremidade públicos ofereçam grande flexibilidade e acess
 - Sincroniza arquivos locais e do Azure bidirecionalmente.
 - A camada de nuvem mantém os arquivos acessados com frequência no local, liberando espaço de armazenamento.
 
+---
+
+## Materiais Complementares
+
+Nossos materiais complementares e de apoio têm como objetivo apresentar informações para facilitar e enriquecer a sua jornada de aprendizado. Para isso, links úteis (como slides, repositórios e páginas oficiais) serão disponibilizados, além de dicas sobre como se destacar na DIO e no mercado de trabalho 😉.
+
+### Slides
+
+- Armazenamento
+- Armazenamento - Revisão
+
+### Dicas/Links Úteis
+
+Por fim, disponibilizamos alguns links úteis para que você possa se desenvolver ainda mais através de referências oficiais das tecnologias, páginas de documentação e/ou fóruns de discussão relevantes. Nesse contexto, seguem algumas sugestões:
+
+- **Artigos/Fórum**: Você pode compartilhar conteúdos técnicos através de artigos (visíveis globalmente na plataforma da DIO). Por outro lado, também pode compartilhar suas conquistas e dúvidas usando os fóruns, que são específicos para cada experiência educacional na DIO, como um bootcamp, por exemplo.
+- **Rooms**: Caso você esteja inscrito(a) em uma experiência educacional na DIO (como um bootcamp, por exemplo), terá acesso ao Rooms. O Rooms é uma ferramenta de bate-papo em tempo real onde todos os inscritos podem interagir, compartilhando dúvidas e dicas (que podem conter imagens e snippets de código-fonte).
+- **Pesquise na Web**: Pode parecer óbvio, mas é importante frisar a importância das ferramentas de busca no dia a dia de um profissional de TI. Caso não encontre o que procura dentro da DIO, pesquise sobre o assunto (conceito, dúvida, erro etc.) na Internet. Use o Google, pois muitas vezes você será levado a páginas como o StackOverflow, que podem salvar o seu dia 😎.
+
 
 -------------------------------------------------------------------------------------------------------------------
 
