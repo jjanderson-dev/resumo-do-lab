@@ -302,4 +302,93 @@ Por fim, disponibilizamos alguns links úteis para que você possa se desenvolve
 -----------------------------------------------------------------------------------------------------
 
 
+## Contas de Armazenamento
+
+- O nome da conta deve ser globalmente exclusivo.
+- Oferece acesso à internet em escala mundial.
+- Define os serviços de armazenamento e as opções de redundância.
+
+## Redundância e Serviços de Armazenamento
+
+- **LRS (Locally Redundant Storage)**: Armazenamento com redundância local.
+- **ZRS (Zone-Redundant Storage)**: Armazenamento com redundância de zona.
+- **GRS (Geo-Redundant Storage)**: Armazenamento com redundância geográfica.
+- **GZRS (Geo-Zone Redundant Storage)**: Armazenamento com redundância de zona geográfica.
+
+## Serviços de Armazenamento do Azure
+
+- **Blob do Azure**: Otimizado para o armazenamento de grandes volumes de dados não estruturados, como texto e dados binários.
+- **Disco do Azure**: Fornece discos para uso por máquinas virtuais, aplicativos e outros serviços.
+- **Fila do Azure**: Serviço de armazenamento de mensagens que permite o armazenamento e a recuperação de grandes volumes de mensagens, com tamanho de até 64 KB por mensagem.
+- **Arquivos do Azure**: Configura um compartilhamento de arquivos de rede altamente disponível, acessível via protocolo SMB (Server Message Block).
+- **Tabelas do Azure**: Oferece uma solução para armazenamento de dados estruturados não relacionais, com um design flexível e sem esquema.
+
+## Pontos de Extremidade Públicos dos Serviços de Armazenamento
+
+Os pontos de extremidade públicos são URLs que permitem acessar os serviços de armazenamento do Azure pela internet. Cada serviço de armazenamento disponibiliza um ponto de extremidade público específico, permitindo que aplicativos e usuários se conectem diretamente ao recurso de armazenamento via HTTP ou HTTPS. Abaixo estão os principais tipos de pontos de extremidade disponíveis no Azure:
+
+- **Armazenamento de Blobs**: O ponto de extremidade público para o serviço de blobs permite armazenar e recuperar dados não estruturados, como imagens, vídeos ou arquivos de log. É ideal para o armazenamento de grandes volumes de dados e pode ser acessado globalmente.
+  - Exemplo de ponto de extremidade: `https://<nome-da-conta>.blob.core.windows.net`
+
+- **Data Lake Storage Gen2**: Fornece armazenamento otimizado para grandes volumes de dados analíticos. O ponto de extremidade para o Data Lake Storage Gen2 suporta fluxos de dados altamente paralelizados e grandes conjuntos de dados para fins de análise avançada.
+  - Exemplo de ponto de extremidade: `https://<nome-da-conta>.dfs.core.windows.net`
+
+- **Arquivos do Azure**: Este ponto de extremidade oferece acesso a um compartilhamento de arquivos em nuvem que pode ser montado localmente ou na nuvem usando o protocolo SMB. É uma solução excelente para migrar ou compartilhar arquivos entre diferentes sistemas.
+  - Exemplo de ponto de extremidade: `https://<nome-da-conta>.file.core.windows.net`
+
+- **Armazenamento de Filas**: O ponto de extremidade para o armazenamento de filas é utilizado para processar grandes volumes de mensagens de forma assíncrona. Cada mensagem pode ter até 64 KB de tamanho, e as filas são acessíveis de maneira segura via internet.
+  - Exemplo de ponto de extremidade: `https://<nome-da-conta>.queue.core.windows.net`
+
+- **Armazenamento de Tabelas**: O ponto de extremidade para o armazenamento de tabelas é usado para armazenar grandes quantidades de dados estruturados não relacionais. Ele permite o acesso rápido a dados organizados no formato chave-atributo, ideal para aplicativos com alto desempenho e escalabilidade.
+  - Exemplo de ponto de extremidade: `https://<nome-da-conta>.table.core.windows.net`
+
+### Considerações de Segurança para Pontos de Extremidade Públicos
+
+Embora os pontos de extremidade públicos ofereçam grande flexibilidade e acessibilidade, é fundamental garantir que o acesso a eles seja seguro. A seguir estão algumas recomendações:
+
+- **Autenticação e Autorização**: Utilize os mecanismos de autenticação do Azure, como SAS (Shared Access Signatures) e Azure Active Directory (Azure AD), para controlar quem pode acessar os dados.
+- **Protocolo HTTPS**: Sempre que possível, utilize HTTPS para proteger os dados em trânsito e evitar interceptações.
+- **Firewall e Rede Virtual**: Configure regras de firewall e redes virtuais no Azure para restringir o acesso aos pontos de extremidade a IPs confiáveis ou locais específicos.
+- **Azure Private Link**: Para cenários que exigem mais segurança, você pode configurar o **Azure Private Link** para limitar o acesso aos serviços de armazenamento exclusivamente através da rede privada, evitando a exposição à internet pública.
+
+## Camadas de Acesso ao Armazenamento no Azure
+
+- **Frequente**: Para dados acessados regularmente.
+- **Esporádico**: Para dados acessados ocasionalmente.
+- **Frio**: Para dados raramente acessados, mas que precisam estar disponíveis.
+- **Arquivo Morto**: Para dados que precisam ser arquivados por longos períodos com acesso mínimo.
+
+## Migração para o Azure
+
+- Plataforma de migração unificada.
+- Conjunto de ferramentas integradas e autônomas.
+- Avaliação e migração de dados.
+
+## Azure Data Box
+
+- Serviço de migração física para transferência de grandes volumes de dados, com capacidade de até 80 TB.
+- Ideal para mover backups de recuperação de desastres para o Azure.
+- Protege os dados em trânsito em um invólucro robusto.
+- Facilita a migração de dados para atender a requisitos de conformidade ou regulamentação.
+- Permite a migração de dados para o Azure a partir de locais remotos, com conectividade limitada ou inexistente.
+
+## Opções de Gerenciamento de Arquivos
+
+- **AzCopy**: Utilitário de linha de comando para copiar blobs ou arquivos de ou para a conta de armazenamento, com suporte para sincronização unidirecional.
+
+## Gerenciamento de Armazenamento do Azure
+
+- Interface de usuário semelhante ao Windows Explorer.
+- Compatível com Windows, MacOS e Linux.
+
+## Sincronização de Arquivos do Azure
+
+- Sincroniza arquivos locais e do Azure bidirecionalmente.
+- A camada de nuvem mantém os arquivos acessados com frequência no local, liberando espaço de armazenamento.
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+
 
