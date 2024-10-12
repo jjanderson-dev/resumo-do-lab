@@ -409,5 +409,95 @@ Por fim, disponibilizamos alguns links úteis para que você possa se desenvolve
 -------------------------------------------------------------------------------------------------------------------
 
 
+## Identidade, Acesso e Segurança
+
+- **Serviços de Diretório**: Utilizam tecnologias como o Active Directory, que permite gerenciar usuários e permissões de forma centralizada.
+- **Métodos de Autenticação**: Incluem senhas, autenticação multifator (MFA) e biometria.
+- **Modelo de Segurança**: Baseado em princípios como a Confiança Zero (Zero Trust) e RBAC (Controle de Acesso Baseado em Função).
+
+## Microsoft Entra ID e Domain Services
+
+O **Microsoft Entra ID** é o serviço de gerenciamento de identidade e acesso baseado em nuvem da Microsoft Azure. Ele era anteriormente conhecido como **Azure AD** (Active Directory). Exemplo: Quando um funcionário faz login na conta corporativa, ele está utilizando o Microsoft Entra ID para acessar recursos como e-mails, aplicativos e arquivos.
+
+## Microsoft Entra ID
+
+- **Autenticação**: Funciona como uma verificação de identidade. Por exemplo, um funcionário acessa o sistema da empresa com seu nome de usuário e senha.
+- **Logon Único (SSO)**: Permite que um funcionário faça login uma única vez e tenha acesso a todos os aplicativos corporativos sem a necessidade de inserir suas credenciais repetidamente. Exemplo: Um colaborador faz login no Office 365 e automaticamente pode acessar o Microsoft Teams e o SharePoint.
+- **Gerenciamento de Aplicativos**: Controle centralizado de aplicativos corporativos. Exemplo: A equipe de TI pode gerenciar quais aplicativos o funcionário pode acessar através do portal do Microsoft Entra.
+- **Negócios para Negócios (B2B)**: Permite a colaboração segura com empresas parceiras. Exemplo: Um fornecedor externo acessa um portal específico da empresa, com permissões limitadas.
+- **Gerenciamento de Dispositivos**: Administra dispositivos conectados, como laptops e smartphones. Exemplo: A equipe de TI pode aplicar políticas de segurança para que apenas dispositivos autorizados possam acessar a rede corporativa.
+
+## Diferença entre Autenticação e Autorização
+
+- **Autenticação**: Identifica o usuário ou serviço que está tentando acessar um recurso. Por exemplo, ao tentar acessar um arquivo na nuvem, o sistema pede as credenciais do usuário para confirmar a identidade.
+- **Autorização**: Determina o que o usuário autenticado pode fazer após o login. Exemplo: Um funcionário pode acessar o SharePoint, mas só pode visualizar e não editar certos documentos, dependendo das permissões que foram atribuídas a ele.
+
+## Autenticação Multifator (MFA)
+
+Adiciona uma camada extra de segurança, exigindo dois ou mais métodos de autenticação para confirmar a identidade do usuário. Exemplo: Além da senha, o sistema pode exigir um código enviado por SMS ou a leitura de uma impressão digital para completar o login.
+
+## Acesso Condicional
+
+O acesso a recursos pode ser controlado com base em várias condições. Exemplos incluem:
+
+- **Associação a Usuário ou Grupo**: Apenas membros do departamento de TI podem acessar o painel de controle da rede.
+- **Localização de IP**: Um funcionário pode acessar o sistema apenas de dentro do escritório ou de um IP específico.
+- **Dispositivo**: O sistema só permite o login de dispositivos corporativos registrados.
+- **Aplicativo**: Alguns aplicativos podem ser restritos a usuários com funções específicas, como gerentes ou administradores.
+- **Detecção de Risco**: O sistema pode bloquear tentativas de login se detectar uma atividade suspeita, como tentativas de acesso de um país incomum.
+
+## Controle de Acesso Baseado em Funções (RBAC)
+
+- **Gerenciamento de Acesso de Granularidade Fina**: Exemplo: Um assistente administrativo pode ter acesso para ver relatórios financeiros, mas não para editá-los.
+- **Divisão de Tarefas e Permissões**: Atribui permissões apenas de acordo com o papel desempenhado. Exemplo: Um engenheiro de rede tem acesso a configurações de roteadores, enquanto o pessoal de RH não.
+- **Habilitar Acesso ao Azure**: Permite configurar quem pode acessar o portal do Azure e quais recursos podem gerenciar. Exemplo: O administrador de rede tem permissões para alterar configurações de segurança, enquanto um analista de dados pode acessar apenas as ferramentas de análise.
+
+## Modelo de Confiança Zero (Zero Trust)
+
+- **Desconfiança Padrão**: Não confie em ninguém, nem dentro nem fora da rede, sem verificar a identidade. Exemplo: Mesmo estando no escritório, um funcionário ainda precisa autenticar seu dispositivo e identidade antes de acessar qualquer recurso.
+- **Proteção Completa**: Implementa múltiplos mecanismos de segurança em todas as áreas. Exemplo: Todo dispositivo e usuário é verificado antes de receber acesso.
+- **Proteção por Camadas**: Cada camada do sistema tem sua própria defesa. Exemplo: Se um atacante conseguir passar pelo firewall, ele ainda será bloqueado por outros mecanismos, como a detecção de anomalias e a segmentação da rede.
+
+## Proteção Completa
+
+- **Abordagem em Camadas**: Protege os sistemas usando várias camadas de segurança. Exemplo: Um sistema pode usar firewalls, autenticação multifator e criptografia de dados para proteger seus recursos.
+- **Níveis de Proteção**: Cada camada fornece uma barreira adicional contra ataques. Exemplo: Mesmo que um hacker consiga passar por uma camada, ele ainda terá que superar outras para comprometer o sistema.
+- **Isolamento de Ataques**: Ataques contra uma camada não comprometem as outras. Exemplo: Se um atacante comprometer um endpoint, ele ainda terá dificuldade em acessar o servidor central, que está em uma camada separada.
+
+## Microsoft Defender para Nuvem
+
+O **Microsoft Defender para Nuvem** é um serviço de monitoramento que protege contra ameaças em datacenters do Azure e locais. Exemplo: Ele pode detectar e bloquear tentativas de ataque a máquinas virtuais no Azure.
+
+## Recursos do Azure
+
+- **Recomendações de Segurança**: O Azure fornece sugestões de segurança proativas. Exemplo: Identifica portas abertas desnecessárias e sugere o fechamento para evitar ataques.
+- **Detecção e Bloqueio de Malware**: O sistema detecta malwares e os bloqueia automaticamente. Exemplo: Um arquivo malicioso detectado em um servidor virtual é isolado e removido.
+- **Análise e Identificação de Ataques Potenciais**: Analisa os padrões de tráfego e identifica comportamentos suspeitos que podem indicar um ataque em andamento.
+- **Controle de Acesso Just-in-Time (JIT)**: Permite que portas sejam abertas temporariamente apenas quando necessário. Exemplo: Uma porta do servidor só será aberta durante uma janela de manutenção, fechando-se automaticamente depois.
+
+---
+
+## Materiais Complementares
+
+Nossos materiais complementares e de apoio têm como objetivo apresentar informações para facilitar e enriquecer a sua jornada de aprendizado. Para isso, links úteis (como slides, repositórios e páginas oficiais) serão disponibilizados, além de dicas sobre como se destacar na DIO e no mercado de trabalho 😉.
+
+### Slides
+
+- Identidade, acesso e segurança
+- Identidade, acesso e segurança - Revisão
+
+### Dicas/Links Úteis
+
+Por fim, disponibilizamos alguns links úteis para que você possa se desenvolver ainda mais através de referências oficiais das tecnologias, páginas de documentação e/ou fóruns de discussão relevantes. Nesse contexto, seguem algumas sugestões:
+
+- **Artigos/Fórum**: Você pode compartilhar conteúdos técnicos através de Artigos (visíveis globalmente na plataforma da DIO). Por outro lado, você também pode compartilhar suas conquistas e dúvidas usando os Fóruns (específicos para cada experiência educacional na DIO, como um Bootcamp, por exemplo).
+- **Rooms**: Caso você esteja inscrito(a) em uma experiência educacional na DIO (como um Bootcamp, por exemplo), terá acesso ao Rooms. O Rooms é uma ferramenta de bate-papo em tempo real onde todos os inscritos podem interagir, compartilhando dúvidas e dicas (que podem conter imagens e snippets de código-fonte).
+- **Pesquise na Web**: Pode parecer óbvio, mas é importante frisar a importância das engines de busca no dia-a-dia de um profissional de TI. Caso não encontre o que procura dentro da DIO, pesquise sobre o assunto (conceito, dúvida, erro etc) na Internet (dê um Google), pois na maioria das vezes você será levado a páginas incríveis como o StackOverflow que salvarão o seu dia 😎.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
 
 
