@@ -497,6 +497,70 @@ Por fim, disponibilizamos alguns links úteis para que você possa se desenvolve
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
+# Gerenciamento de Custo no Azure
+
+- **Calculadora de custo e preços**: Ferramenta que permite calcular os custos de utilização dos serviços do Azure com base em diferentes parâmetros, como região e tipo de serviço.
+- **Gerenciamento de custo e marcas**: Organização dos recursos e gastos por meio de marcas (tags), facilitando o rastreamento e a alocação de custos por projeto ou departamento.
+
+## Objetivos
+
+- **Descrever fatores que podem afetar os custos no Azure**: Identificar as variáveis que influenciam os custos, como tipo de recurso, consumo, manutenção, tráfego de rede, entre outros.
+- **Comparar a calculadora de preços com a calculadora de Custo Total de Propriedade (TCO)**: Explicar a diferença entre as duas ferramentas e como elas podem ser usadas para estimar custos e economias a longo prazo.
+- **Descrever a Ferramenta de Gerenciamento de Custo do Azure**: Apresentar a ferramenta que permite monitorar, analisar e otimizar os custos dentro do ambiente Azure.
+- **Descrever a finalidade das marcas (tags)**: Explicar como as marcas são usadas para categorizar e organizar os recursos, facilitando o gerenciamento e relatórios de custos.
+
+## Fatores que Afetam os Custos no Azure
+
+Alguns dos principais fatores que influenciam os custos no Azure incluem:
+
+- **Tipo de recurso**: Cada recurso (como máquinas virtuais, bancos de dados, ou redes) tem um custo específico, com base no tipo e na quantidade de medidores utilizados para monitorar seu desempenho e uso.
+  
+- **Consumo**: O modelo de pagamento é baseado no uso real dos recursos, ou seja, quanto mais um serviço é utilizado, maior o custo gerado. Serviços como armazenamento, processamento e tráfego de dados são grandes geradores de custos.
+
+- **Manutenção**: Manter o ambiente monitorado ajuda a identificar recursos subutilizados, como máquinas virtuais que podem ser desligadas ou redimensionadas, evitando desperdícios de recursos.
+
+- **Área geográfica**: O custo de um recurso pode variar conforme a região geográfica onde ele é provisionado. Algumas regiões têm preços mais elevados devido a diferentes condições de mercado e políticas de preços locais.
+
+- **Tráfego de rede**: Embora a entrada de dados no Azure seja geralmente gratuita, o tráfego de saída (dados que saem do Azure) ou entre diferentes regiões dentro da plataforma é cobrado de acordo com a zona de cobrança e a quantidade de dados transferidos.
+
+- **Assinatura**: A configuração da assinatura do Azure também pode impactar os custos. Por exemplo, as assinaturas com períodos de avaliação gratuita permitem explorar certos recursos sem custo adicional, mas uma assinatura completa pode incluir cobranças específicas.
+
+## Azure Marketplace
+
+O **Azure Marketplace** é uma plataforma que permite aos clientes encontrar, testar, comprar e provisionar uma ampla variedade de aplicativos e serviços oferecidos por provedores de terceiros que são certificados para execução no Azure. Isso pode afetar os custos, pois os serviços do Marketplace muitas vezes têm seus próprios modelos de precificação.
+
+## Calculadora de Custo do Azure
+
+A **Calculadora de Custo do Azure** é uma ferramenta que permite estimar os custos dos serviços antes de utilizá-los, com base em parâmetros como:
+
+- **Região**: Os custos variam dependendo da localização geográfica dos recursos.
+- **Camada de serviço**: Diferentes camadas (ou planos) de serviço oferecem diferentes níveis de desempenho e custo.
+- **Opção de cobrança**: A cobrança pode ser baseada no tempo de uso ou em uma taxa fixa, dependendo da escolha.
+- **Opção de suporte**: Planos de suporte técnico também afetam os custos, variando desde suporte básico até opções premium.
+- **Programas e ofertas**: Inclui descontos ou ofertas sazonais.
+- **Preço de desenvolvimento/teste**: Permite explorar recursos com preços reduzidos durante fases de teste e desenvolvimento.
+
+## Calculadora de Custo Total de Propriedade (TCO)
+
+A **Calculadora de Custo Total de Propriedade (TCO)** é uma ferramenta avançada que:
+
+- Ajuda a estimar a economia de custos ao migrar para o Azure, comparando os custos da infraestrutura on-premise (local) com os custos dos serviços de nuvem do Azure.
+- Gera relatórios detalhados, facilitando a análise de possíveis economias a longo prazo ao adotar soluções baseadas em nuvem.
+
+## Gerenciamento de Custos no Azure
+
+O **Gerenciamento de Custos do Azure** permite que as empresas acompanhem seus gastos e otimizem suas despesas por meio de:
+
+- **Relatórios de cobrança**: Relatórios detalhados sobre o uso dos recursos e as cobranças associadas, ajudando a controlar os gastos.
+- **Enriquecimento de dados**: Capacidade de adicionar metadados e tags aos recursos para uma visão mais granular dos custos, possibilitando segmentar e organizar despesas por departamento, projeto ou outro critério relevante.
+
+## Marcas ou Tags
+
+As **marcas (tags)** são usadas para associar metadados aos recursos do Azure, facilitando a organização e rastreamento dos custos. Elas:
+
+- Organizam os recursos de maneira lógica, ajudando na categorização e na facilidade de gerenciamento.
+- Consistem em pares de **nome-valor** que podem representar projetos, departamentos ou outras informações relevantes.
+- São extremamente úteis para gerar relatórios financeiros detalhados, permitindo uma análise mais precisa dos custos por categoria ou finalidade.
 
 
 
