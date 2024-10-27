@@ -562,6 +562,38 @@ As **marcas (tags)** são usadas para associar metadados aos recursos do Azure, 
 - Consistem em pares de **nome-valor** que podem representar projetos, departamentos ou outras informações relevantes.
 - São extremamente úteis para gerar relatórios financeiros detalhados, permitindo uma análise mais precisa dos custos por categoria ou finalidade.
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Governança e Conformidade no Azure
+
+## Blueprints, Políticas e Bloqueios de Recursos
+
+- **Azure Policy**: Ferramenta que ajuda a impor padrões organizacionais e a avaliar a conformidade de recursos em escala. Ela assegura que os recursos do Azure estejam em conformidade com regulamentações e normas de segurança, custo e gerenciamento. A Azure Policy permite:
+  - Avaliar e identificar recursos que não atendem às políticas definidas, facilitando a adequação aos requisitos de conformidade.
+  - Definir e aplicar políticas e iniciativas integradas que abrangem diversas categorias, como armazenamento, rede, computação, segurança e monitoramento.
+  
+## Azure Policy
+
+- **Função da Azure Policy**: A Azure Policy permite avaliar e monitorar continuamente os recursos do Azure, identificando automaticamente aqueles que não estão em conformidade com as políticas estabelecidas. Ela inclui políticas e iniciativas pré-configuradas, abrangendo áreas como:
+  - **Armazenamento**: Políticas para controle de acesso e segurança dos dados armazenados.
+  - **Rede**: Definições para segurança e controle de tráfego de rede.
+  - **Computação**: Regras para o uso e configuração de máquinas virtuais e outros recursos de computação.
+  - **Central de Segurança**: Integração com o centro de segurança do Azure para monitoramento constante.
+  - **Monitoramento**: Ferramentas de monitoramento e alertas para garantir a conformidade e o desempenho dos recursos.
+
+## Bloqueio de Recursos
+
+- **Propósito dos Bloqueios de Recursos**: Essa funcionalidade permite proteger os recursos do Azure contra exclusão acidental ou modificações não autorizadas. Os bloqueios podem ser configurados para:
+  - **Assinaturas**: Protegendo todos os recursos dentro de uma assinatura.
+  - **Grupos de Recursos**: Aplicando bloqueios a grupos específicos para evitar alterações não planejadas.
+  - **Recursos Individuais**: Protegendo recursos específicos, como máquinas virtuais ou bancos de dados, contra alterações acidentais.
+
+## Microsoft Purview
+
+- **Descrição do Microsoft Purview**: O Microsoft Purview é uma solução abrangente de governança, risco e conformidade de dados. Ele fornece uma visão unificada e centralizada de todos os dados da organização, incluindo dados locais, multinuvem e software como serviço (SaaS). Com o Microsoft Purview, você pode:
+  - **Gerenciar riscos e conformidade**: Identificar e mitigar riscos relacionados à segurança e privacidade de dados.
+  - **Obter insights**: Reunir informações detalhadas sobre os dados, facilitando a tomada de decisões e a conformidade com regulamentações.
+  - **Integração com múltiplas fontes**: Centralizar dados de diferentes fontes para uma análise mais completa e simplificada.
 
 
 
