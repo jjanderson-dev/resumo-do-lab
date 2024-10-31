@@ -664,6 +664,6 @@ Com essas ferramentas e práticas, o Azure proporciona um ambiente robusto e efi
         - **Análise de Logs**: Coleta e consulta de logs para identificar padrões e possíveis problemas operacionais.
         - **Alertas Inteligentes**: Configuração de alertas automáticos com base em métricas de desempenho (como CPU ou uso de memória) para notificar sua equipe sobre situações críticas.
         - **Resource Health**: Este recurso exibe o status de integridade dos recursos individuais do Azure, permitindo verificar se algum serviço específico, como uma máquina virtual ou banco de dados, está enfrentando problemas. Por exemplo, se uma VM estiver offline devido a problemas de rede, o Resource Health indicará o problema e fornecerá orientações para resolução.
-![image](https://github.com/user-attachments/assets/79cde58c-d3d7-4cd4-8cfc-289419aa10fe)
+
 
 
