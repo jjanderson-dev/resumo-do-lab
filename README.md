@@ -641,5 +641,29 @@ Com essas ferramentas e práticas, o Azure proporciona um ambiente robusto e efi
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+## Ferramentas de Monitoramento
+
+- **Assistente do Azure**
+
+    - O Assistente do Azure analisa continuamente os recursos implantados na plataforma e fornece recomendações para otimizar a configuração com base nas melhores práticas. Essas recomendações ajudam a melhorar a confiabilidade, segurança, desempenho, controle de custos e excelência operacional. Por exemplo:
+        - **Confiabilidade**: Sugestões para implementar redundância em servidores, ajudando a evitar falhas de serviço.
+        - **Segurança**: Recomendação para habilitar autenticação multifator em recursos sensíveis, aumentando a segurança de dados.
+        - **Desempenho**: Identificação de gargalos de desempenho e recomendação de ajustes na alocação de CPU ou memória para melhorar a resposta de aplicativos.
+        - **Custo**: Sugestões para otimizar o uso de recursos, como desligar VMs ociosas para reduzir despesas.
+        - **Excelência Operacional**: Orientações sobre como organizar recursos para facilitar a governança e a conformidade.
+
+- **Integridade do Serviço do Azure**
+
+    - A Integridade do Serviço do Azure mantém você atualizado sobre o status geral dos serviços do Azure em todas as regiões, com foco específico nos serviços e recursos que você utiliza. Ele inclui:
+        - **Status do Azure**: Um painel de integridade que fornece uma visão geral do status de todos os serviços do Azure em tempo real, incluindo incidentes e manutenções planejadas. Por exemplo, se um problema ocorrer no serviço Azure Storage na região Leste dos EUA, você será notificado sobre o impacto potencial.
+        - **Exibição Personalizada**: A ferramenta mostra apenas o status dos serviços e regiões que afetam diretamente você, filtrando alertas desnecessários. Se você tiver recursos em uma região específica, apenas incidentes nessa região serão destacados.
+
+- **Azure Monitor**
+
+    - O Azure Monitor maximiza a disponibilidade e o desempenho dos seus aplicativos e serviços ao coletar e analisar dados de telemetria tanto da nuvem quanto de ambientes locais. Ele permite ações proativas com base em insights detalhados. Alguns componentes do Azure Monitor incluem:
+        - **Análise de Logs**: Coleta e consulta de logs para identificar padrões e possíveis problemas operacionais.
+        - **Alertas Inteligentes**: Configuração de alertas automáticos com base em métricas de desempenho (como CPU ou uso de memória) para notificar sua equipe sobre situações críticas.
+        - **Resource Health**: Este recurso exibe o status de integridade dos recursos individuais do Azure, permitindo verificar se algum serviço específico, como uma máquina virtual ou banco de dados, está enfrentando problemas. Por exemplo, se uma VM estiver offline devido a problemas de rede, o Resource Health indicará o problema e fornecerá orientações para resolução.
+![image](https://github.com/user-attachments/assets/79cde58c-d3d7-4cd4-8cfc-289419aa10fe)
 
 
